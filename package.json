@@ -1,0 +1,24 @@
+{
+  "name": "iot-event-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangeshparanjape/iot-event-server.git"
+  },
+  "author": "Mangesh Paranjape",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mangeshparanjape/iot-event-server/issues"
+  },
+  "homepage": "https://github.com/mangeshparanjape/iot-event-server#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "hapi": "^15.0.3",
+    "socket.io": "^1.4.8"
+  }
+}

@@ -1,12 +1,12 @@
 var Hapi = require('hapi');
 var cp = require('child_process');
 var server = new Hapi.Server();
-var port = process.env.EVENTER_SERVICE_PORT || process.env.EVT_PORT || 4000;
+var port = 4000;
 var host = process.env.EVENTER_SERVICE_HOST;
 
 setErr();
 
-server.connection({ host: 'localhost', port: port });
+server.connection({ host: host, port: port });
 
 server.route({
     method: 'GET',
